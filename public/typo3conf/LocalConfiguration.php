@@ -12,8 +12,9 @@ return [
     'DB' => [
         'Connections' => [
             'Default' => [
-                'charset' => 'utf8',
+                'charset' => 'utf8mb4',
                 'driver' => 'mysqli',
+                'collate' => 'utf8mb4_general_ci'
             ],
         ],
     ],
